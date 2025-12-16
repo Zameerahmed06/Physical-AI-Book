@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "framework": "docusaurus",
+  "builds": [
+    {
+      "src": "Physical-Book/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Physical-Book/build/$1"
+    }
+  ]
+}
