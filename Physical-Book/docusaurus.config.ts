@@ -15,15 +15,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://ai-robotic-book-bay.vercel.app', // Replace with your actual domain
+  url: 'https://physical-ai-book-puce.vercel.app/', // Replace with your actual domain
   // Set the /<baseUrl>/ pathname under which your site is served
   // For Vercel deployment, use '/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AI-Robotic-Book', // Usually your GitHub org/user name.
-  projectName: 'AI-Robotic-Book', // Usually your repo name.
+  organizationName: 'Physical-AI-Book', // Usually your GitHub org/user name.
+  projectName: 'Physical-AI-Book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -49,7 +49,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Zameerahmed06/AI-Robotic-Book/tree/main/Physical-Book/',
+            'https://github.com/Zameerahmed06/Physical-AI-Book/tree/main/Physical-Book/',
         },
         blog: false,
         theme: {
@@ -79,7 +79,7 @@ const config: Config = {
           label: 'Textbook',
         },
         {
-          href: 'https://github.com/Zameerahmed06/AI-Robotic-Book',
+          href: 'https://github.com/Zameerahmed06/Physical-AI-Book',
           label: 'GitHub',
           position: 'right',
         },
@@ -149,7 +149,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Zameerahmed06/AI-Robotic-Book',
+              href: 'https://github.com/Zameerahmed06/Physical-AI-Book',
             },
             {
               label: 'Discord',
