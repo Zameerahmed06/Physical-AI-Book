@@ -174,7 +174,7 @@ const config: Config = {
             },
             {
               label: 'Contribute',
-              href: 'https://github.com/Zameerahmed06/AI-Robotic-Book',
+              href: 'https://github.com/Zameerahmed06/Physical-AI-Book',
             },
           ],
         },
